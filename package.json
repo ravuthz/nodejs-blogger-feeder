@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-blogger-feeder",
+  "version": "1.0.0",
+  "bin": "main.js",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [
+    "blogger-feeder"
+  ],
+  "author": "Ravuthz <ravuthz@gmail.com>",
+  "description": "Format blogger feed to json using nodejs",
+  "repository": "https://github.com/ravuthz/nodejs-blogger-feeder.git",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "node-fetch": "^3.3.2"
+  }
+}
